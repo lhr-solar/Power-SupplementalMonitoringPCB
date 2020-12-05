@@ -1,0 +1,427 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R6
+U 1 1 5FD76E79
+P 4450 4250
+F 0 "R6" V 4243 4250 50  0000 C CNN
+F 1 "10k" V 4334 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 4250 50  0001 C CNN
+F 3 "~" H 4450 4250 50  0001 C CNN
+	1    4450 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FD771E8
+P 4450 3850
+F 0 "R5" V 4243 3850 50  0000 C CNN
+F 1 "20k" V 4334 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 3850 50  0001 C CNN
+F 3 "~" H 4450 3850 50  0001 C CNN
+	1    4450 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FD77512
+P 4250 4750
+F 0 "R4" V 4043 4750 50  0000 C CNN
+F 1 "20k" V 4134 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 4750 50  0001 C CNN
+F 3 "~" H 4250 4750 50  0001 C CNN
+	1    4250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5FD7782D
+P 6000 3200
+F 0 "R7" V 5793 3200 50  0000 C CNN
+F 1 "20k" V 5884 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3850 4900 3850
+Wire Wire Line
+	4900 4250 4600 4250
+Wire Wire Line
+	4100 4750 1950 4750
+Wire Wire Line
+	6900 4100 6600 4100
+$Comp
+L utsvt-chips:REF34-Q1 U6
+U 1 1 5FD83212
+P 3150 4550
+F 0 "U6" H 3150 5415 50  0000 C CNN
+F 1 "REF34-Q1" H 3150 5324 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3150 4550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ref34-q1.pdf?ts=1607145790728&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF34-Q1" H 3150 4550 50  0001 C CNN
+	1    3150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4250 3550 4250
+$Comp
+L utsvt-connectors:CarPowerConnector J5
+U 1 1 5FD754BE
+P 1650 4850
+F 0 "J5" H 1733 5197 60  0000 C CNN
+F 1 "SuppPowerConnector" H 1733 5091 60  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 1650 4850 60  0001 C CNN
+F 3 "" H 1650 4850 60  0001 C CNN
+	1    1650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4950 2000 5000
+Wire Wire Line
+	4300 3850 4050 3850
+$Comp
+L power:GND #PWR037
+U 1 1 5FD89970
+P 4050 3850
+F 0 "#PWR037" H 4050 3600 50  0001 C CNN
+F 1 "GND" V 4055 3722 50  0000 R CNN
+F 2 "" H 4050 3850 50  0001 C CNN
+F 3 "" H 4050 3850 50  0001 C CNN
+	1    4050 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 5FD89E1B
+P 2600 4350
+F 0 "#PWR036" H 2600 4100 50  0001 C CNN
+F 1 "GND" H 2605 4177 50  0000 C CNN
+F 2 "" H 2600 4350 50  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4250 2600 4250
+Wire Wire Line
+	2600 4250 2600 4350
+$Comp
+L power:+5V #PWR035
+U 1 1 5FD8A776
+P 2600 3850
+F 0 "#PWR035" H 2600 3700 50  0001 C CNN
+F 1 "+5V" H 2615 4023 50  0000 C CNN
+F 2 "" H 2600 3850 50  0001 C CNN
+F 3 "" H 2600 3850 50  0001 C CNN
+	1    2600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3950 2600 3950
+Wire Wire Line
+	2750 4150 2600 4150
+Wire Wire Line
+	2600 3850 2600 3950
+Connection ~ 2600 3950
+Wire Wire Line
+	2600 3950 2600 4150
+Text Label 10100 3900 2    50   ~ 0
+SuppOut
+Text HLabel 10100 3900 2    50   Output ~ 0
+SuppOut
+Text HLabel 2500 3950 0    50   Input ~ 0
++5V
+Text HLabel 2500 4250 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2600 3950 2500 3950
+Wire Wire Line
+	2600 4250 2500 4250
+Connection ~ 2600 4250
+Text Notes 5150 2550 0    100  ~ 20
+Signal Conditioning
+$Comp
+L utsvt-chips:OPA388-Q1 U8
+U 1 1 5FF0E65A
+P 8050 4250
+F 0 "U8" H 8000 4400 50  0000 L CNN
+F 1 "OPA388-Q1" H 7850 4300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8050 4250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa388-q1.pdf?ts=1607147346786&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA388-Q1" H 8050 4250 50  0001 C CNN
+	1    8050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FF103EC
+P 7200 4100
+F 0 "R8" V 6993 4100 50  0000 C CNN
+F 1 "27k" V 7084 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7130 4100 50  0001 C CNN
+F 3 "~" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4100 7450 4100
+Wire Wire Line
+	6900 4100 7050 4100
+Connection ~ 6900 4100
+Wire Wire Line
+	7600 3900 7550 3900
+$Comp
+L power:GND #PWR041
+U 1 1 5FF1255C
+P 7800 4350
+F 0 "#PWR041" H 7800 4100 50  0001 C CNN
+F 1 "GND" H 7805 4177 50  0000 C CNN
+F 2 "" H 7800 4350 50  0001 C CNN
+F 3 "" H 7800 4350 50  0001 C CNN
+	1    7800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4300 7800 4350
+$Comp
+L power:GND #PWR039
+U 1 1 5FF12C20
+P 7550 4350
+F 0 "#PWR039" H 7550 4100 50  0001 C CNN
+F 1 "GND" H 7555 4177 50  0000 C CNN
+F 2 "" H 7550 4350 50  0001 C CNN
+F 3 "" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3900 7550 4350
+Wire Wire Line
+	7450 4100 7450 4750
+Connection ~ 7450 4100
+Wire Wire Line
+	7450 4100 7600 4100
+$Comp
+L Device:R R9
+U 1 1 5FF150D3
+P 7900 4750
+F 0 "R9" V 8000 4750 50  0000 C CNN
+F 1 "10k" V 8100 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 4750 50  0001 C CNN
+F 3 "~" H 7900 4750 50  0001 C CNN
+	1    7900 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 4750 7750 4750
+Wire Wire Line
+	8050 4750 8350 4750
+Wire Wire Line
+	8350 4750 8350 4000
+Wire Wire Line
+	8350 4000 8200 4000
+$Comp
+L power:+3.3V #PWR040
+U 1 1 5FF181F3
+P 7800 3600
+F 0 "#PWR040" H 7800 3450 50  0001 C CNN
+F 1 "+3.3V" H 7815 3773 50  0000 C CNN
+F 2 "" H 7800 3600 50  0001 C CNN
+F 3 "" H 7800 3600 50  0001 C CNN
+	1    7800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-chips:OPA388-Q1 U9
+U 1 1 5FF1B7E6
+P 9450 4150
+F 0 "U9" H 9400 4300 50  0000 L CNN
+F 1 "OPA388-Q1" H 9250 4200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9450 4150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa388-q1.pdf?ts=1607147346786&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA388-Q1" H 9450 4150 50  0001 C CNN
+	1    9450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5FF1B7EC
+P 8600 4000
+F 0 "R10" V 8393 4000 50  0000 C CNN
+F 1 "10k" V 8484 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8530 4000 50  0001 C CNN
+F 3 "~" H 8600 4000 50  0001 C CNN
+	1    8600 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 4000 8850 4000
+Wire Wire Line
+	9000 3800 8950 3800
+$Comp
+L power:GND #PWR044
+U 1 1 5FF1B7F4
+P 9200 4250
+F 0 "#PWR044" H 9200 4000 50  0001 C CNN
+F 1 "GND" H 9205 4077 50  0000 C CNN
+F 2 "" H 9200 4250 50  0001 C CNN
+F 3 "" H 9200 4250 50  0001 C CNN
+	1    9200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4200 9200 4250
+$Comp
+L power:GND #PWR042
+U 1 1 5FF1B7FB
+P 8950 4250
+F 0 "#PWR042" H 8950 4000 50  0001 C CNN
+F 1 "GND" H 8955 4077 50  0000 C CNN
+F 2 "" H 8950 4250 50  0001 C CNN
+F 3 "" H 8950 4250 50  0001 C CNN
+	1    8950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3800 8950 4250
+Wire Wire Line
+	8850 4000 8850 4650
+Connection ~ 8850 4000
+Wire Wire Line
+	8850 4000 9000 4000
+$Comp
+L Device:R R11
+U 1 1 5FF1B805
+P 9300 4650
+F 0 "R11" V 9400 4650 50  0000 C CNN
+F 1 "10k" V 9500 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9230 4650 50  0001 C CNN
+F 3 "~" H 9300 4650 50  0001 C CNN
+	1    9300 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 4650 9150 4650
+Wire Wire Line
+	9450 4650 9750 4650
+Wire Wire Line
+	9750 4650 9750 3900
+Text HLabel 9250 3550 2    50   Input ~ 0
++3.3V
+Wire Wire Line
+	9200 3550 9200 3500
+Connection ~ 9200 3550
+Wire Wire Line
+	9200 3550 9250 3550
+$Comp
+L power:+3.3V #PWR043
+U 1 1 5FF1B813
+P 9200 3500
+F 0 "#PWR043" H 9200 3350 50  0001 C CNN
+F 1 "+3.3V" H 9215 3673 50  0000 C CNN
+F 2 "" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3600 9200 3550
+Wire Wire Line
+	8450 4000 8350 4000
+Connection ~ 8350 4000
+Connection ~ 9750 3900
+Wire Wire Line
+	9750 3900 10100 3900
+Wire Wire Line
+	9600 3900 9750 3900
+Wire Wire Line
+	7800 3600 7800 3700
+$Comp
+L utsvt-chips:OPAx192-Q1 U7
+U 1 1 5FF22F96
+P 6000 5100
+F 0 "U7" H 6350 5700 50  0000 C CNN
+F 1 "OPAx192-Q1" H 6350 5600 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6000 5100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2192-q1.pdf?ts=1607117833281" H 6000 5100 50  0001 C CNN
+	1    6000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4950 2000 4950
+$Comp
+L power:GND #PWR034
+U 1 1 5FD88BE4
+P 2000 5000
+F 0 "#PWR034" H 2000 4750 50  0001 C CNN
+F 1 "GND" H 2005 4827 50  0000 C CNN
+F 2 "" H 2000 5000 50  0001 C CNN
+F 3 "" H 2000 5000 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3850 4900 4050
+$Comp
+L power:+12V #PWR038
+U 1 1 5FF37D2D
+P 6000 3500
+F 0 "#PWR038" H 6000 3350 50  0001 C CNN
+F 1 "+12V" H 6015 3673 50  0000 C CNN
+F 2 "" H 6000 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3500 6000 3550
+Wire Wire Line
+	4900 4050 5200 4050
+Connection ~ 4900 4050
+Wire Wire Line
+	4900 4050 4900 4250
+Wire Wire Line
+	5050 4750 5050 4150
+Wire Wire Line
+	5050 4150 5400 4150
+Wire Wire Line
+	4400 4750 5050 4750
+Wire Wire Line
+	5200 4050 5200 3200
+Wire Wire Line
+	5200 3200 5850 3200
+Connection ~ 5200 4050
+Wire Wire Line
+	5200 4050 5400 4050
+Wire Wire Line
+	6150 3200 6900 3200
+Wire Wire Line
+	6900 3200 6900 4100
+Text HLabel 6000 3500 2    50   Input ~ 0
++12V
+$Comp
+L power:GND #PWR052
+U 1 1 5FF46FFB
+P 6000 4650
+F 0 "#PWR052" H 6000 4400 50  0001 C CNN
+F 1 "GND" H 6005 4477 50  0000 C CNN
+F 2 "" H 6000 4650 50  0001 C CNN
+F 3 "" H 6000 4650 50  0001 C CNN
+	1    6000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4600 6000 4650
+$EndSCHEMATC
