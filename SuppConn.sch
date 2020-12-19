@@ -57,9 +57,11 @@ GND
 Text Notes 5150 2550 0    100  ~ 20
 Signal Conditioning
 $Comp
-L utsvt-chips:OPAx192-Q1 U7
+L Power-SupplementalMonitoringPCB-rescue:OPAx192-Q1-utsvt-chips U7
 U 1 1 5FF22F96
 P 6500 5200
+AR Path="/5FF22F96" Ref="U7"  Part="1" 
+AR Path="/5FD73B7C/5FF22F96" Ref="U7"  Part="1" 
 F 0 "U7" H 7100 5800 50  0000 C CNN
 F 1 "OPAx192-Q1" H 7100 5700 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6500 5200 50  0001 C CNN
@@ -165,21 +167,6 @@ Connection ~ 5700 3300
 Connection ~ 5700 3650
 Wire Wire Line
 	5700 3650 5700 4150
-$Comp
-L Device:R R8
-U 1 1 5FE0625E
-P 5100 4250
-F 0 "R8" V 4893 4250 50  0000 C CNN
-F 1 "2.2k" V 4984 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 4250 50  0001 C CNN
-F 3 "~" H 5100 4250 50  0001 C CNN
-	1    5100 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 4250 5900 4250
-Wire Wire Line
-	4950 4250 4250 4250
 Wire Wire Line
 	4250 4250 4250 4200
 $Comp
@@ -197,5 +184,53 @@ Text HLabel 4200 4250 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
 	4250 4250 4200 4250
+$Comp
+L Device:R R8
+U 1 1 5FDF6EAC
+P 4350 4400
+F 0 "R8" V 4143 4400 50  0000 C CNN
+F 1 "11k" V 4234 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4400 50  0001 C CNN
+F 3 "~" H 4350 4400 50  0001 C CNN
+	1    4350 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5FDF759A
+P 4350 4950
+F 0 "R9" V 4143 4950 50  0000 C CNN
+F 1 "24k" V 4234 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4950 50  0001 C CNN
+F 3 "~" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FDF799E
+P 4350 5200
+F 0 "#PWR05" H 4350 4950 50  0001 C CNN
+F 1 "GND" H 4355 5027 50  0000 C CNN
+F 2 "" H 4350 5200 50  0001 C CNN
+F 3 "" H 4350 5200 50  0001 C CNN
+	1    4350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5200 4350 5100
+Wire Wire Line
+	4350 4800 4350 4650
+Wire Wire Line
+	4350 4250 4250 4250
 Connection ~ 4250 4250
+Wire Wire Line
+	4350 4650 5150 4650
+Wire Wire Line
+	5150 4650 5150 4250
+Wire Wire Line
+	5150 4250 5900 4250
+Connection ~ 4350 4650
+Wire Wire Line
+	4350 4650 4350 4550
 $EndSCHEMATC

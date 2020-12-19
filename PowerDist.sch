@@ -456,7 +456,7 @@ Power Distribution
 Text Notes 3200 6650 0    50   ~ 0
 Isolated DC-DC Converter to step down +12V \npower to an isolated +15V for the op-amp. 
 $Comp
-L utsvt-power-regulators:RI3-1215S U6
+L Power-SupplementalMonitoringPCB-rescue:RI3-1215S-utsvt-power-regulators U6
 U 1 1 5FD5BBD9
 P 4000 5600
 F 0 "U6" H 4000 5715 50  0000 C CNN
