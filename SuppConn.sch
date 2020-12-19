@@ -57,7 +57,7 @@ GND
 Text Notes 5150 2550 0    100  ~ 20
 Signal Conditioning
 $Comp
-L Power-SupplementalMonitoringPCB-rescue:OPAx192-Q1-utsvt-chips U7
+L utsvt-chips:OPAx192-Q1 U7
 U 1 1 5FF22F96
 P 6500 5200
 AR Path="/5FF22F96" Ref="U7"  Part="1" 
