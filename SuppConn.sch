@@ -1,0 +1,236 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R4
+U 1 1 5FD77512
+P 5100 3650
+F 0 "R4" V 4893 3650 50  0000 C CNN
+F 1 "10k" V 4984 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 3650 50  0001 C CNN
+F 3 "~" H 5100 3650 50  0001 C CNN
+	1    5100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5FD7782D
+P 6500 3300
+F 0 "R7" V 6293 3300 50  0000 C CNN
+F 1 "2.2k" V 6384 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6430 3300 50  0001 C CNN
+F 3 "~" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4200 7100 4200
+$Comp
+L utsvt-connectors:CarPowerConnector J5
+U 1 1 5FD754BE
+P 4250 3750
+F 0 "J5" H 4000 3750 60  0000 C CNN
+F 1 "SuppPowerConnector" H 3600 3650 60  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4250 3750 60  0001 C CNN
+F 3 "" H 4250 3750 60  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3850 4600 3900
+Text HLabel 7950 4200 2    50   Output ~ 0
+SuppOut
+Text HLabel 4650 3850 2    50   Input ~ 0
+GND
+Text Notes 5150 2550 0    100  ~ 20
+Signal Conditioning
+$Comp
+L utsvt-chips:OPAx192-Q1 U7
+U 1 1 5FF22F96
+P 6500 5200
+AR Path="/5FF22F96" Ref="U7"  Part="1" 
+AR Path="/5FD73B7C/5FF22F96" Ref="U7"  Part="1" 
+F 0 "U7" H 7100 5800 50  0000 C CNN
+F 1 "OPAx192-Q1" H 7100 5700 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6500 5200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2192-q1.pdf?ts=1607117833281" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3850 4600 3850
+$Comp
+L power:GND #PWR034
+U 1 1 5FD88BE4
+P 4600 3900
+F 0 "#PWR034" H 4600 3650 50  0001 C CNN
+F 1 "GND" H 4605 3727 50  0000 C CNN
+F 2 "" H 4600 3900 50  0001 C CNN
+F 3 "" H 4600 3900 50  0001 C CNN
+	1    4600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3600 6500 3650
+Wire Wire Line
+	5700 3300 6350 3300
+Wire Wire Line
+	5700 4150 5900 4150
+Wire Wire Line
+	6650 3300 7400 3300
+Wire Wire Line
+	7400 3300 7400 4200
+Wire Wire Line
+	6500 3600 6550 3600
+Wire Wire Line
+	6500 3600 6500 3550
+Connection ~ 6500 3600
+$Comp
+L power:+15V #PWR051
+U 1 1 5FD7A38C
+P 6500 3550
+F 0 "#PWR051" H 6500 3400 50  0001 C CNN
+F 1 "+15V" H 6500 3700 50  0000 C CNN
+F 2 "" H 6500 3550 50  0001 C CNN
+F 3 "" H 6500 3550 50  0001 C CNN
+	1    6500 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 3600 2    50   Input ~ 0
++15V
+Wire Wire Line
+	4650 3850 4600 3850
+Connection ~ 4600 3850
+Wire Wire Line
+	5700 3650 5250 3650
+Wire Wire Line
+	4950 3650 4550 3650
+Connection ~ 7400 4200
+Text Label 7950 4200 2    50   ~ 0
+SuppOut
+Wire Wire Line
+	7400 4200 7950 4200
+Wire Wire Line
+	6500 4700 6500 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 5FE019D3
+P 6500 4800
+F 0 "#PWR0103" H 6500 4550 50  0001 C CNN
+F 1 "GND" H 6505 4627 50  0000 C CNN
+F 2 "" H 6500 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FE0228A
+P 4600 3300
+F 0 "#PWR0104" H 4600 3050 50  0001 C CNN
+F 1 "GND" H 4605 3127 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3300 5700 3650
+Wire Wire Line
+	5250 3300 5700 3300
+Wire Wire Line
+	4950 3300 4600 3300
+$Comp
+L Device:R R6
+U 1 1 5FE01F16
+P 5100 3300
+F 0 "R6" V 4893 3300 50  0000 C CNN
+F 1 "10k" V 4984 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 3300 50  0001 C CNN
+F 3 "~" H 5100 3300 50  0001 C CNN
+	1    5100 3300
+	0    1    1    0   
+$EndComp
+Connection ~ 5700 3300
+Connection ~ 5700 3650
+Wire Wire Line
+	5700 3650 5700 4150
+Wire Wire Line
+	4250 4250 4250 4200
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5FE071C2
+P 4250 4200
+F 0 "#PWR0105" H 4250 4050 50  0001 C CNN
+F 1 "+3.3V" H 4265 4373 50  0000 C CNN
+F 2 "" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+Text HLabel 4200 4250 0    50   Input ~ 0
++3.3V
+Wire Wire Line
+	4250 4250 4200 4250
+$Comp
+L Device:R R8
+U 1 1 5FDF6EAC
+P 4350 4400
+F 0 "R8" V 4143 4400 50  0000 C CNN
+F 1 "11k" V 4234 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4400 50  0001 C CNN
+F 3 "~" H 4350 4400 50  0001 C CNN
+	1    4350 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5FDF759A
+P 4350 4950
+F 0 "R9" V 4143 4950 50  0000 C CNN
+F 1 "24k" V 4234 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4950 50  0001 C CNN
+F 3 "~" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FDF799E
+P 4350 5200
+F 0 "#PWR05" H 4350 4950 50  0001 C CNN
+F 1 "GND" H 4355 5027 50  0000 C CNN
+F 2 "" H 4350 5200 50  0001 C CNN
+F 3 "" H 4350 5200 50  0001 C CNN
+	1    4350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5200 4350 5100
+Wire Wire Line
+	4350 4800 4350 4650
+Wire Wire Line
+	4350 4250 4250 4250
+Connection ~ 4250 4250
+Wire Wire Line
+	4350 4650 5150 4650
+Wire Wire Line
+	5150 4650 5150 4250
+Wire Wire Line
+	5150 4250 5900 4250
+Connection ~ 4350 4650
+Wire Wire Line
+	4350 4650 4350 4550
+$EndSCHEMATC
