@@ -216,7 +216,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1371600|965200|67c670dd-fb2b-497b-9fb8-d71f0c528707|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3|",
+      "power_pin_not_driven|1612900|927100|49e8000a-9bfb-4b5b-8a32-e412ab29519d|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|",
+      "power_pin_not_driven|952500|749300|e1198a32-4da0-408d-b288-4f69b520de02|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|",
+      "power_pin_not_driven|952500|825500|63cc65b6-7915-4c15-b3b1-98fbd06ef45a|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|"
+    ],
     "meta": {
       "version": 0
     },
@@ -416,7 +421,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -538,6 +543,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],

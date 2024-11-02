@@ -402,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 162.56 121.92)
+			(xy 162.56 114.3) (xy 162.56 127)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 105.41) (xy 167.64 121.92)
+			(xy 167.64 105.41) (xy 167.64 124.46)
 		)
 		(stroke
 			(width 0)
@@ -532,7 +532,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 120.65) (xy 156.21 121.92)
+			(xy 156.21 120.65) (xy 156.21 132.08)
 		)
 		(stroke
 			(width 0)
@@ -603,6 +603,42 @@
 		)
 		(uuid "139fec1d-4e1f-4506-837d-633e53c2c7a5")
 	)
+	(hierarchical_label "*CS"
+		(shape input)
+		(at 162.56 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17616c87-3ac9-4c9a-95f3-7874857b9abb")
+	)
+	(hierarchical_label "*DRDY"
+		(shape input)
+		(at 173.99 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5aa6eac3-734a-48dc-a9f7-4340af722471")
+	)
+	(hierarchical_label "*SYNC{slash}*RESET"
+		(shape input)
+		(at 156.21 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9703da62-af0f-4e8e-b881-998ade25dfd0")
+	)
 	(hierarchical_label "DCDC_CAP"
 		(shape input)
 		(at 123.19 91.44 180)
@@ -614,6 +650,30 @@
 			(justify right)
 		)
 		(uuid "9cca2523-7e25-4f50-b807-4e32fafd6961")
+	)
+	(hierarchical_label "DOUT"
+		(shape input)
+		(at 167.64 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e27cd8a3-7d0a-4d26-a5d1-cc6c93b82292")
+	)
+	(hierarchical_label "Out"
+		(shape input)
+		(at 173.99 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9b9bb6c-6d2d-4494-b55c-7b168a7cca49")
 	)
 	(hierarchical_label "DGND"
 		(shape input)

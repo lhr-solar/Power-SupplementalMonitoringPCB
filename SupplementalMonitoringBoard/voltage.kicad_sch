@@ -802,6 +802,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00143b83-75a7-4fe9-b09f-b9e227b010c8")
+	)
+	(wire
+		(pts
 			(xy 119.38 95.25) (xy 119.38 99.06)
 		)
 		(stroke
@@ -842,16 +852,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 151.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53c57a0c-0c39-43b9-a501-7ce6d6189941")
-	)
-	(wire
-		(pts
 			(xy 129.54 106.68) (xy 129.54 118.11)
 		)
 		(stroke
@@ -879,6 +879,16 @@
 			(type default)
 		)
 		(uuid "6fce42f2-3b8e-48b6-8a09-820d23c06637")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f6ef73-57a5-42e6-aaec-62398a91403b")
 	)
 	(wire
 		(pts
@@ -1418,6 +1428,75 @@
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7409a0c7-9276-42da-9481-d0d7bb5ecd85")
+		(property "Reference" "R14"
+			(at 145.288 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.7799 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c78d64d-8414-4666-bcd2-9e488fe5497d")
+		)
+		(pin "2"
+			(uuid "3737e312-51ef-45ab-a8e2-f485c7d90143")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
+					(reference "R14")
 					(unit 1)
 				)
 			)
