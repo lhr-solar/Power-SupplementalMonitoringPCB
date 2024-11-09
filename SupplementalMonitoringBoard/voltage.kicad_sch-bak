@@ -788,9 +788,21 @@
 		(color 0 0 0 0)
 		(uuid "5fdbce58-25b5-47ba-8909-0ce298b5a59a")
 	)
+	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81cdf4c-923d-4433-8ebf-856340da15f1")
+	)
+	(junction
+		(at 129.54 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe0c92f4-a0c2-480a-aeae-03ad043c1234")
+	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 151.13 118.11)
+			(xy 129.54 118.11) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -817,6 +829,16 @@
 			(type default)
 		)
 		(uuid "41676502-4e1d-4d3b-b94a-376ae35381f9")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb7c869-f1d1-4f48-bf87-4b8db9d48314")
 	)
 	(wire
 		(pts
@@ -857,6 +879,16 @@
 			(type default)
 		)
 		(uuid "6fce42f2-3b8e-48b6-8a09-820d23c06637")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f6ef73-57a5-42e6-aaec-62398a91403b")
 	)
 	(wire
 		(pts
@@ -918,6 +950,17 @@
 		)
 		(uuid "d8ab38f3-6c40-4ee2-8e9f-5bdc60168c0d")
 	)
+	(text "unity-gain stable op amp"
+		(exclude_from_sim no)
+		(at 139.7 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "2d1707a6-415c-4001-b9ed-106b9aafb551")
+	)
 	(text "Voltage"
 		(exclude_from_sim no)
 		(at 146.558 67.564 0)
@@ -953,7 +996,7 @@
 		)
 		(uuid "fb65c898-6d5d-4a76-890b-253ac2f72e57")
 	)
-	(label "+BATT{slash}4"
+	(label "2.5V"
 		(at 119.38 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1064,7 +1107,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "2.6k"
 			(at 111.76 91.44 90)
 			(effects
 				(font
@@ -1385,6 +1428,75 @@
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7409a0c7-9276-42da-9481-d0d7bb5ecd85")
+		(property "Reference" "R14"
+			(at 145.288 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.7799 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.51 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c78d64d-8414-4666-bcd2-9e488fe5497d")
+		)
+		(pin "2"
+			(uuid "3737e312-51ef-45ab-a8e2-f485c7d90143")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
+					(reference "R14")
 					(unit 1)
 				)
 			)
