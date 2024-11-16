@@ -216,12 +216,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1371600|965200|67c670dd-fb2b-497b-9fb8-d71f0c528707|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3|",
-      "power_pin_not_driven|1612900|927100|49e8000a-9bfb-4b5b-8a32-e412ab29519d|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|",
-      "power_pin_not_driven|952500|749300|e1198a32-4da0-408d-b288-4f69b520de02|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|",
-      "power_pin_not_driven|952500|825500|63cc65b6-7915-4c15-b3b1-98fbd06ef45a|00000000-0000-0000-0000-000000000000|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|/aa0415d0-3287-4bc4-9a8e-766ada9ace2f|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -619,18 +614,6 @@
     [
       "cde5a840-cd97-4154-b488-bad27326129c",
       "Temperature"
-    ],
-    [
-      "20ba7bd5-99e8-45e6-a6fa-f93b53aaa222",
-      "ADC Connect"
-    ],
-    [
-      "1227ac4e-31e5-4c8e-a2fc-47c8873f33fc",
-      "ADC Output"
-    ],
-    [
-      "b474001e-6bf2-4c05-bde4-2b9e2047d23a",
-      "GNDVoltage"
     ]
   ],
   "text_variables": {}

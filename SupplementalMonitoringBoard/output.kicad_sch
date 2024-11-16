@@ -766,7 +766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ac2560-47e6-4274-9426-c83f351aa179")
-		(property "Reference" "C9"
+		(property "Reference" "CR9"
 			(at 146.05 87.6362 0)
 			(effects
 				(font
@@ -820,7 +820,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/1227ac4e-31e5-4c8e-a2fc-47c8873f33fc"
-					(reference "C9")
+					(reference "CR9")
 					(unit 1)
 				)
 			)
@@ -905,7 +905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d96412f-d9c8-4dad-8244-2ce623028de0")
-		(property "Reference" "C8"
+		(property "Reference" "CR8"
 			(at 134.62 92.7162 0)
 			(effects
 				(font
@@ -959,7 +959,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/1227ac4e-31e5-4c8e-a2fc-47c8873f33fc"
-					(reference "C8")
+					(reference "CR8")
 					(unit 1)
 				)
 			)
@@ -1110,7 +1110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea39773-37c4-4f94-a76c-4901081bbae2")
-		(property "Reference" "C7"
+		(property "Reference" "CR7"
 			(at 134.62 87.6362 0)
 			(effects
 				(font
@@ -1164,7 +1164,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/1227ac4e-31e5-4c8e-a2fc-47c8873f33fc"
-					(reference "C7")
+					(reference "CR7")
 					(unit 1)
 				)
 			)

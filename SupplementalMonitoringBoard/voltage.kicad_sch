@@ -820,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 104.14) (xy 170.18 104.14)
+			(xy 151.13 104.14) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -918,6 +918,16 @@
 		)
 		(uuid "d8ab38f3-6c40-4ee2-8e9f-5bdc60168c0d")
 	)
+	(text "Max input voltage to the ADC = +2.7 V\n\n"
+		(exclude_from_sim no)
+		(at 191.008 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f05dcc7-30ec-4dc1-9103-b86902c0565c")
+	)
 	(text "Voltage"
 		(exclude_from_sim no)
 		(at 146.558 67.564 0)
@@ -931,6 +941,16 @@
 		)
 		(uuid "557218bc-234b-4ce6-9aa1-f14ec82a4238")
 	)
+	(text "Voltage follower: Vout = Vin\n\n"
+		(exclude_from_sim no)
+		(at 171.196 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62444aab-70c6-4085-b985-620a58126585")
+	)
 	(text "Voltage"
 		(exclude_from_sim no)
 		(at 190.246 189.992 0)
@@ -941,6 +961,36 @@
 			)
 		)
 		(uuid "6c463d28-3df6-49cf-9d57-125a34bdc01a")
+	)
+	(text "Math: 10/(10+45)*12V = less than 2.4 V, 2/11 of the input voltage\n"
+		(exclude_from_sim no)
+		(at 133.35 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82d04e9d-ba2a-4b19-a573-f9912e7e0ed2")
+	)
+	(text "Gain = 0\n"
+		(exclude_from_sim no)
+		(at 184.404 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fe04bdd-1478-4def-9965-ba1e8f41884e")
+	)
+	(text "Range: at 10V, 1.82 at 14V, 2.55"
+		(exclude_from_sim no)
+		(at 202.692 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1825927-38ff-4d73-a830-d7000b23e304")
 	)
 	(text "decoupling capacitor"
 		(exclude_from_sim no)
@@ -966,7 +1016,7 @@
 	)
 	(hierarchical_label "Voltage"
 		(shape input)
-		(at 170.18 104.14 0)
+		(at 176.53 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -986,7 +1036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "077942b4-0f54-4da0-83c5-b8acb4b76bea")
-		(property "Reference" "C5"
+		(property "Reference" "CV5"
 			(at 93.98 135.8962 0)
 			(effects
 				(font
@@ -1040,7 +1090,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
-					(reference "C5")
+					(reference "CV5")
 					(unit 1)
 				)
 			)
@@ -1064,7 +1114,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 111.76 91.44 90)
 			(effects
 				(font
@@ -1797,7 +1847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f910edf5-7366-4cc1-9bf2-848a897458c5")
-		(property "Reference" "C4"
+		(property "Reference" "CV4"
 			(at 109.22 135.8962 0)
 			(effects
 				(font
@@ -1851,7 +1901,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/c3517b11-42d4-41ac-8608-60dda8052ca3"
-					(reference "C4")
+					(reference "CV4")
 					(unit 1)
 				)
 			)

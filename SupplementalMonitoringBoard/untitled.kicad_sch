@@ -664,7 +664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6711baf1-2245-40d1-87cc-c7c1219272dd")
-		(property "Reference" "C15"
+		(property "Reference" "CL15"
 			(at 129.54 99.0662 0)
 			(effects
 				(font
@@ -718,7 +718,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C15")
+					(reference "CL15")
 					(unit 1)
 				)
 			)
@@ -734,7 +734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75bd8de4-5e33-4acc-aad4-72d76d4df89b")
-		(property "Reference" "C17"
+		(property "Reference" "CL17"
 			(at 140.97 83.8262 0)
 			(effects
 				(font
@@ -788,7 +788,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C17")
+					(reference "CL17")
 					(unit 1)
 				)
 			)
@@ -804,7 +804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9327e4cb-01b3-4933-aca8-671521b7fd96")
-		(property "Reference" "C16"
+		(property "Reference" "CL16"
 			(at 134.62 99.0662 0)
 			(effects
 				(font
@@ -858,7 +858,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C16")
+					(reference "CL16")
 					(unit 1)
 				)
 			)
@@ -874,7 +874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c69e18-5ea8-481a-8e82-7c1d83753a34")
-		(property "Reference" "C20"
+		(property "Reference" "CL20"
 			(at 148.59 105.4162 0)
 			(effects
 				(font
@@ -928,7 +928,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C20")
+					(reference "CL20")
 					(unit 1)
 				)
 			)
@@ -944,7 +944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ec18ac-7e63-4a2e-94f6-0c062cac362a")
-		(property "Reference" "C18"
+		(property "Reference" "CL18"
 			(at 142.24 105.4162 0)
 			(effects
 				(font
@@ -998,7 +998,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C18")
+					(reference "CL18")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08d9879-d3b2-437b-b682-ecdbf7d14cf1")
-		(property "Reference" "C19"
+		(property "Reference" "CL19"
 			(at 146.05 83.8262 0)
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/20ba7bd5-99e8-45e6-a6fa-f93b53aaa222"
-					(reference "C19")
+					(reference "CL19")
 					(unit 1)
 				)
 			)

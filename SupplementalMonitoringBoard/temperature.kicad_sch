@@ -1173,6 +1173,17 @@
 		)
 		(uuid "ff04d466-50ba-4034-b4e3-a3b24572e232")
 	)
+	(text "Vn = Vp\n(3/10k + (3/2)/3k)3k"
+		(exclude_from_sim no)
+		(at 147.574 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0485c85a-503d-414d-a2cd-433d5b7b0bad")
+	)
 	(text "non inverting amplifier"
 		(exclude_from_sim no)
 		(at 151.13 73.406 0)
@@ -1184,6 +1195,46 @@
 		)
 		(uuid "3e49e130-8e91-4e9f-b6af-4de64e92502c")
 	)
+	(text "Range: at 10V, 1.6V at 14V, 2.24V"
+		(exclude_from_sim no)
+		(at 198.628 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a03249c-b0de-4747-8298-48ad2de8eab8")
+	)
+	(text ".9+1.5 = 2.4 V\n"
+		(exclude_from_sim no)
+		(at 154.94 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ad5b19b-1bb2-4c95-b7e4-1310e89c1f61")
+	)
+	(text "Vn: Vn/10k + Vn/10k + (Vn-Vout)/3k = 0"
+		(exclude_from_sim no)
+		(at 168.91 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5feba4c9-fb2c-468b-9263-885363a17d8c")
+	)
+	(text "Math: 10/(10+40)*12V = 2.4V, 1/4 of the input voltage\n"
+		(exclude_from_sim no)
+		(at 66.04 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67bf3979-c1e0-46e9-96f1-b8d77986a6e9")
+	)
 	(text "decoupling capacitor"
 		(exclude_from_sim no)
 		(at 42.418 80.518 0)
@@ -1194,6 +1245,16 @@
 			)
 		)
 		(uuid "76e529dd-8f48-4549-834f-1165112e8270")
+	)
+	(text "Vp: 2Vp/500 = 3/500 Vp = 3/2"
+		(exclude_from_sim no)
+		(at 163.83 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c9f61e8-8a8d-48f2-9c2e-0dd6c337554b")
 	)
 	(text "Temperature"
 		(exclude_from_sim no)
@@ -1207,6 +1268,26 @@
 		)
 		(uuid "a6f88a4b-cf64-4d92-aa70-7dc82f68f283")
 	)
+	(text "Vp: (Vp-3)/(1k//1k)+ Vp/(1k//1k)"
+		(exclude_from_sim no)
+		(at 165.354 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac312ef3-4761-4b51-b18b-81444601c56c")
+	)
+	(text "R12 makes sure that Vn isn't directly connected to GND\n"
+		(exclude_from_sim no)
+		(at 103.886 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adf87d21-570a-48e9-9cb3-c0998877d791")
+	)
 	(text "Temperature"
 		(exclude_from_sim no)
 		(at 140.462 44.704 0)
@@ -1219,6 +1300,16 @@
 			)
 		)
 		(uuid "c8378ad5-2947-4a93-82d4-2d3679526f89")
+	)
+	(text "Gain is .8\n"
+		(exclude_from_sim no)
+		(at 152.654 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5b04df4-2cd8-4901-b1e8-b14493ded2d5")
 	)
 	(label "Thermistor"
 		(at 123.19 88.9 180)
@@ -1423,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a41706-3ae7-4f15-bbcc-833631cddba4")
-		(property "Reference" "C6"
+		(property "Reference" "CT6"
 			(at 52.07 90.1762 0)
 			(effects
 				(font
@@ -1477,7 +1568,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/cde5a840-cd97-4154-b488-bad27326129c"
-					(reference "C6")
+					(reference "CT6")
 					(unit 1)
 				)
 			)
@@ -1835,7 +1926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d661a5-9bb2-4a19-bc28-12f2ebc686ff")
-		(property "Reference" "C3"
+		(property "Reference" "CT3"
 			(at 36.83 90.1762 0)
 			(effects
 				(font
@@ -1889,7 +1980,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/cde5a840-cd97-4154-b488-bad27326129c"
-					(reference "C3")
+					(reference "CT3")
 					(unit 1)
 				)
 			)
@@ -2191,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 45.72 45.72 90)
 			(effects
 				(font
@@ -2259,7 +2350,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "3k"
 			(at 156.21 102.87 90)
 			(effects
 				(font
