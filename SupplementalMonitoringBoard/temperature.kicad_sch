@@ -965,23 +965,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 88.9) (xy 124.46 88.9)
+			(xy 123.19 88.9) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3463db8f-3775-4628-915d-250e6936866e")
-	)
-	(wire
-		(pts
-			(xy 132.08 88.9) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f29bb15-87e1-4af5-825e-f2978e67861a")
 	)
 	(wire
 		(pts
@@ -1576,73 +1566,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39656c90-2a31-4d08-89ac-22351b6c4a35")
-		(property "Reference" "R9"
-			(at 128.27 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 128.27 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 128.27 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01720d3c-dbcd-47f0-915a-d720a8dbed81")
-		)
-		(pin "2"
-			(uuid "67afd8e7-8c15-4d18-971f-fe5369f920c0")
-		)
-		(instances
-			(project "SupplementalMonitoringBoard"
-				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f/cde5a840-cd97-4154-b488-bad27326129c"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 53.34 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1729,7 +1652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500"
 			(at 83.82 82.5499 0)
 			(effects
 				(font
@@ -1865,7 +1788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500"
 			(at 82.55 97.7899 0)
 			(effects
 				(font
