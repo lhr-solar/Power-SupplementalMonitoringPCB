@@ -1091,7 +1091,7 @@
 		)
 		(uuid "87649219-e6fd-4688-8056-fa77982545f8")
 	)
-	(text "Vp: Shunt resistor is negligable, assume Vp = 2.4\n"
+	(text "Vp: Shunt resistor is negligable for this bc current is zero, assume Vp = 2.4\n"
 		(exclude_from_sim no)
 		(at 113.792 119.38 0)
 		(effects
