@@ -494,6 +494,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -990,126 +1129,6 @@
 				)
 			)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1466,6 +1485,108 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "utsvt-connectors:CarPowerConnector"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CarPowerConnector"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connection to the car's low power bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CarPowerConnector_0_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CarPowerConnector_1_1"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2338,12 +2459,6 @@
 		(color 0 0 0 0)
 		(uuid "f97cd999-be7f-4b58-8e41-c5a5271071be")
 	)
-	(junction
-		(at 259.08 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8ae7d5-57aa-49b0-b9b8-2aac56989122")
-	)
 	(no_connect
 		(at 256.54 87.63)
 		(uuid "4bccb301-b6f3-435e-99ee-53ff2d37349b")
@@ -2363,6 +2478,10 @@
 	(no_connect
 		(at 218.44 115.57)
 		(uuid "6b30aaad-b4f6-4316-b283-abbdfff24518")
+	)
+	(no_connect
+		(at 256.54 74.93)
+		(uuid "a975937d-13a1-4dbf-84e9-e5976877ddca")
 	)
 	(no_connect
 		(at 256.54 90.17)
@@ -2405,16 +2524,6 @@
 			(type default)
 		)
 		(uuid "114bc134-4af5-4a43-8f6f-abea435ad0e2")
-	)
-	(wire
-		(pts
-			(xy 259.08 72.39) (xy 256.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f92c63-032a-45f8-afa3-7d11e49c542f")
 	)
 	(wire
 		(pts
@@ -2765,16 +2874,6 @@
 			(type default)
 		)
 		(uuid "772ef563-6e26-4407-ba71-fc189c65df3b")
-	)
-	(wire
-		(pts
-			(xy 259.08 69.85) (xy 259.08 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77604033-1b4c-4831-a14d-a61dc81b1b10")
 	)
 	(wire
 		(pts
@@ -3473,6 +3572,17 @@
 		)
 		(uuid "6f47b545-ee96-464c-8282-75bd9f4f448a")
 	)
+	(label "CAN_L"
+		(at 180.34 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fa29f5a-610b-40e1-a48b-71f3b120e5ef")
+	)
 	(label "CAN_H"
 		(at 218.44 76.2 180)
 		(fields_autoplaced yes)
@@ -3605,6 +3715,17 @@
 		)
 		(uuid "a22725df-b50e-48de-b911-f2283e902559")
 	)
+	(label "CAN_H"
+		(at 180.34 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9681571-aecf-46fc-ab9e-41f9defd64d1")
+	)
 	(label "DOUT"
 		(at 133.35 96.52 0)
 		(fields_autoplaced yes)
@@ -3615,6 +3736,17 @@
 			(justify left bottom)
 		)
 		(uuid "ac654f75-90f4-4acd-96a0-4cf7c847107e")
+	)
+	(label "CAN_H"
+		(at 180.34 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad642997-817f-44bf-8221-fec43ed138d0")
 	)
 	(label "AINOP"
 		(at 107.95 82.55 0)
@@ -3727,7 +3859,7 @@
 		(uuid "eeec2c76-c010-4dc4-a349-2c9b0d43e746")
 	)
 	(label "LowPower"
-		(at 256.54 74.93 0)
+		(at 256.54 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3736,6 +3868,17 @@
 			(justify left bottom)
 		)
 		(uuid "ef9215ea-f466-4fd1-88e2-b5bd00c27695")
+	)
+	(label "CAN_L"
+		(at 180.34 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f57b2cee-775e-4155-af2f-49aaea17ef03")
 	)
 	(label "DOUT"
 		(at 116.84 45.72 0)
@@ -3936,6 +4079,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "158231ae-e80b-425c-9276-4c5ea0d10a92")
+		(property "Reference" "#PWR038"
+			(at 193.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edaa07a7-5740-46e9-afbe-b1157b25a279")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 97.79 60.96 0)
 		(unit 1)
@@ -3954,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" ".1uF"
 			(at 100.33 62.2362 0)
 			(effects
 				(font
@@ -3972,7 +4180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/80-C0805J222K5RAUTO"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -3982,6 +4190,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C102J5HACAUTO"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -4042,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -4052,6 +4269,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -4070,6 +4296,74 @@
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
 					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-connectors:CarPowerConnector")
+		(at 185.42 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef9cd1b-ed75-48ec-9b6a-4a980554a35b")
+		(property "Reference" "J1"
+			(at 184.785 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CarPowerConnector"
+			(at 184.785 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connection to the car's low power bus"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ea1350-0a8b-4217-81eb-a6e5c0e1512b")
+		)
+		(pin "2"
+			(uuid "1749a961-2952-4a1e-8c50-dd4284922300")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4137,6 +4431,72 @@
 			(project ""
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276abaf0-fe1e-4c82-be7e-1c892b59f4e7")
+		(property "Reference" "#PWR036"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6171802-18e1-447c-8ae6-494fcc081aa7")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "30k"
 			(at 73.66 78.74 90)
 			(effects
 				(font
@@ -4310,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -4320,6 +4680,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MCU08050D3002BP100"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -4350,10 +4719,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2bcfb61d-867e-40a2-a580-bb0a87c358d4")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 194.31 22.86 0)
 			(effects
 				(font
@@ -4420,7 +4789,7 @@
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4595,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -4605,6 +4974,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -4755,6 +5133,72 @@
 			(project ""
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 193.04 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b0f078-26d5-45a9-9bc7-7e5de16accd0")
+		(property "Reference" "#PWR037"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ecaf17-5399-4707-aaa9-7863ae76e319")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5026,17 +5470,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 67.31 82.55 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 185.42 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3e8a851-87d2-4df3-aa91-aa1da640df22")
-		(property "Reference" "#PWR031"
-			(at 67.31 86.36 0)
+		(uuid "ba40cc1e-2536-4bda-a7ef-94b5f06c99cf")
+		(property "Reference" "J2"
+			(at 187.96 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANconn"
+			(at 187.706 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,16 +5505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 82.55 0)
+		(property "Datasheet" "~"
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,8 +5514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 67.31 82.55 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,88 +5523,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 67.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "5178b033-9ab7-4d8c-8b14-fbcf98e5e979")
 		)
 		(pin "1"
-			(uuid "2604691a-bee3-40fd-a8a2-da8f4500a4b5")
+			(uuid "c756b9ff-b8c8-4323-a5dc-0e6515167110")
 		)
 		(instances
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 93.98 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac675d1b-407e-404e-b448-b3321349bae6")
-		(property "Reference" "#PWR045"
-			(at 93.98 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 93.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31df2a87-4bc4-4641-966c-bce3fee81978")
-		)
-		(instances
-			(project "SupplementalMonitoringBoard"
-				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
-					(reference "#PWR045")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5193,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -5203,6 +5584,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -5261,7 +5651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -5271,6 +5661,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MCU08050D3002BP100"
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -5349,6 +5748,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" " SBASAO3A "
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "0961b17b-65c1-4ea6-b596-44c25894fb94")
 		)
@@ -5419,6 +5827,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 67.31 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3849ade-ec66-45ae-ba59-954f0c230ba7")
+		(property "Reference" "#PWR031"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "419652dc-24d1-4d7c-af0a-bd43f391ce23")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 109.22 60.96 0)
 		(unit 1)
@@ -5455,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C105K5PACTU?qs=mYAa4mSiDJyTAfAbrHf%2FRg%3D%3D"
 			(at 109.22 60.96 0)
 			(effects
 				(font
@@ -5465,6 +5939,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 109.22 60.96 0)
 			(effects
 				(font
@@ -5590,7 +6073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -5600,6 +6083,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -5660,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C105K5PACTU?qs=mYAa4mSiDJyTAfAbrHf%2FRg%3D%3D"
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -5670,6 +6162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -5700,10 +6201,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d6f39616-967b-4398-b8e9-efef1e7ddffa")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 243.84 24.13 0)
 			(effects
 				(font
@@ -5770,7 +6271,7 @@
 		(instances
 			(project ""
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5963,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -5973,6 +6474,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -6033,7 +6543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -6043,6 +6553,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -6085,7 +6604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" ".1uF"
 			(at 30.48 80.0162 0)
 			(effects
 				(font
@@ -6103,7 +6622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/80-C0805J222K5RAUTO"
 			(at 27.94 78.74 0)
 			(effects
 				(font
@@ -6113,6 +6632,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C102J5HACAUTO"
 			(at 27.94 78.74 0)
 			(effects
 				(font
@@ -6173,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 35.56 85.09 0)
 			(effects
 				(font
@@ -6183,6 +6711,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 35.56 85.09 0)
 			(effects
 				(font
@@ -6225,7 +6762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" ".1uF"
 			(at 44.45 86.3662 0)
 			(effects
 				(font
@@ -6243,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/80-C0805J222K5RAUTO"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -6253,6 +6790,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C102J5HACAUTO"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -6295,7 +6841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" ".1uF"
 			(at 41.91 64.7762 0)
 			(effects
 				(font
@@ -6313,7 +6859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/80-C0805J222K5RAUTO"
 			(at 39.37 63.5 0)
 			(effects
 				(font
@@ -6323,6 +6869,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C102J5HACAUTO"
 			(at 39.37 63.5 0)
 			(effects
 				(font
@@ -6407,6 +6962,75 @@
 			(project "SupplementalMonitoringBoard"
 				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 185.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e1587f-44e7-42a5-99d5-8b7bb5a54876")
+		(property "Reference" "J3"
+			(at 187.96 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANconn2"
+			(at 187.706 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3297dab4-8f5c-4031-9bc7-7c59a9af8f59")
+		)
+		(pin "1"
+			(uuid "806525de-b454-445c-8d61-e9cfc0697616")
+		)
+		(instances
+			(project "SupplementalMonitoringBoard"
+				(path "/aa0415d0-3287-4bc4-9a8e-766ada9ace2f"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6514,7 +7138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -6524,6 +7148,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -6583,7 +7216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 133.35 73.66 0)
 			(effects
 				(font
@@ -6593,6 +7226,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 133.35 73.66 0)
 			(effects
 				(font
