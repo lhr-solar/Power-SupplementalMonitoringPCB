@@ -1468,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/603-RT0603FRE0710KL"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "RT0603FRE0710KL "
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -1907,7 +1907,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "0805W8F1503T5E"
+		(property "P/N" "ERJ-UP6D1503V "
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -2031,7 +2031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/30122/wslp.pdf"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -2049,7 +2049,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "RCWE0805R100FNEA"
+		(property "P/N" "WSLP0805R0100DEA "
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -2253,7 +2253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/603-RT0603FRE0710KL"
 			(at 146.05 106.68 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "RT0603FRE0710KL "
 			(at 146.05 106.68 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/60057/pnm.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PNM0805E5002BST1"
+		(property "P/N" "PTN0805E5002BST1"
 			(at 88.9 90.17 0)
 			(effects
 				(font

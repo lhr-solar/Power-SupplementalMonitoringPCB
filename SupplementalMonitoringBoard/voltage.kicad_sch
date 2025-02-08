@@ -1831,7 +1831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/603-RT0603FRE0710KL"
 			(at 119.38 102.87 0)
 			(effects
 				(font
@@ -1849,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "RT0603FRE0710KL "
 			(at 119.38 102.87 0)
 			(effects
 				(font
